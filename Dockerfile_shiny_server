@@ -1,0 +1,11 @@
+# use docker
+FROM rocker/shiny:4.4
+
+# copy app in the folder
+COPY app/app.R /srv/shiny-server/
+
+# expose port to localhost
+EXPOSE 3838
+
+# run the server
+CMD ["/usr/bin/shiny-server"]
