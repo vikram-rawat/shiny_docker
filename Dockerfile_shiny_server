@@ -4,6 +4,9 @@ FROM rocker/shiny:4.4
 # copy app in the folder
 COPY app/app.R /srv/shiny-server/
 
+# install packages in the app
+RUN Rscript -e "renv::restore()"
+
 # expose port to localhost
 EXPOSE 3838
 
