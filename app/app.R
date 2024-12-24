@@ -19,10 +19,10 @@ ui <- fluidPage(
           "Crash" = "crash"
         )
       )
+    ),
+    mainPanel(
+      plotOutput("distPlot")
     )
-  ),
-  mainPanel(
-    plotOutput("distPlot")
   )
 )
 
