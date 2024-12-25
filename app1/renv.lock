@@ -21,14 +21,14 @@
     },
     "Rcpp": {
       "Package": "Rcpp",
-      "Version": "1.0.13-1",
+      "Version": "1.0.13",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "methods",
         "utils"
       ],
-      "Hash": "6b868847b365672d6c1677b1608da9ed"
+      "Hash": "f27411eb6d9c3dada5edd444b8416675"
     },
     "base64enc": {
       "Package": "base64enc",
@@ -86,10 +86,10 @@
     },
     "commonmark": {
       "Package": "commonmark",
-      "Version": "1.9.2",
+      "Version": "1.9.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "14eb0596f987c71535d07c3aff814742"
+      "Hash": "5d8225445acb167abf7797de48b2ee3c"
     },
     "crayon": {
       "Package": "crayon",
@@ -123,7 +123,7 @@
     },
     "fontawesome": {
       "Package": "fontawesome",
-      "Version": "0.5.3",
+      "Version": "0.5.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -131,18 +131,18 @@
         "htmltools",
         "rlang"
       ],
-      "Hash": "bd1297f9b5b1fc1372d19e2c4cd82215"
+      "Hash": "c2efdd5f0bcd1ea861c2d4e2a883a67d"
     },
     "fs": {
       "Package": "fs",
-      "Version": "1.6.5",
+      "Version": "1.6.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "7f48af39fa27711ea5fbd183b399920d"
+      "Hash": "15aeb8c27f5ea5161f9f6a641fafd93a"
     },
     "glue": {
       "Package": "glue",
@@ -208,14 +208,14 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.4.1",
+      "Version": "1.3.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "Rcpp",
         "rlang"
       ],
-      "Hash": "501744395cac0bab0fbcfab9375ae92c"
+      "Hash": "a3e051d405326b8b0012377434c62b37"
     },
     "lifecycle": {
       "Package": "lifecycle",
@@ -290,9 +290,12 @@
     "renv": {
       "Package": "renv",
       "Version": "1.0.11",
-      "OS_type": null,
+      "Source": "Repository",
       "Repository": "CRAN",
-      "Source": "Repository"
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "47623f66b4e80b3b0587bc5d7b309888"
     },
     "rlang": {
       "Package": "rlang",
@@ -364,7 +367,7 @@
     },
     "withr": {
       "Package": "withr",
-      "Version": "3.0.2",
+      "Version": "3.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -372,7 +375,7 @@
         "grDevices",
         "graphics"
       ],
-      "Hash": "cc2d62c76458d425210d1eb1478b30b4"
+      "Hash": "07909200e8bbe90426fbfeb73e1e27aa"
     },
     "xtable": {
       "Package": "xtable",

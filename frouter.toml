@@ -3,14 +3,14 @@
 route = "/app1/"
 workers = 2
 server_type = "Shiny"
-workdir = "./app1"
+workdir = "app1"
 
 
 [[route]]
 route = "/app2/"
 workers = 2
 server_type = "Shiny"
-app_dir = "./app2"
+app_dir = "app2"
 
 
 # runs the HOME route.
@@ -18,4 +18,4 @@ app_dir = "./app2"
 route = "/"
 workers = 2
 server_type = "Shiny"
-workdir = "./home"
+workdir = "home"
