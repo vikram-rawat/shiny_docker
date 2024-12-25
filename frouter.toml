@@ -1,0 +1,21 @@
+# R session in a different working directory.
+[[route]]
+route = "/app1/"
+workers = 2
+server_type = "Shiny"
+workdir = "./app1"
+
+
+[[route]]
+route = "/app2/"
+workers = 2
+server_type = "Shiny"
+app_dir = "./app2"
+
+
+# runs the HOME route.
+[[route]]
+route = "/"
+workers = 2
+server_type = "Shiny"
+workdir = "./home"

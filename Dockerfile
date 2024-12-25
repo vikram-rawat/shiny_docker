@@ -26,7 +26,7 @@ RUN chown -R faucet:faucet /srv/faucet/
 USER faucet
 
 # Set four workers
-ENV FAUCET_WORKERS=2
+# ENV FAUCET_WORKERS=2
 
 # Enable graceful shutdown
 ENV FAUCET_SHUTDOWN=graceful
