@@ -1,7 +1,7 @@
 library(shiny)
 
 ui <- fluidPage(
-  titlePanel("Hello Shiny!"),
+  titlePanel("Hello app2!"),
   sidebarLayout(
     sidebarPanel(
       sliderInput(
@@ -37,7 +37,7 @@ server <- function(input, output, session) {
   )
 
   output$distPlot <- renderPlot({
-    hist(rnorm(input$obs))
+    hist(rnorm(input$obs), col = "darkorange")
   })
 }
 
