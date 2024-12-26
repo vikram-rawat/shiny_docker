@@ -2,10 +2,28 @@ library(shiny)
 
 ui <- fluidPage(
   titlePanel("HOME"),
-  h1("home"),
   fluidRow(
-    column(6, a(href = "/app1", class = "btn btn-primary", "Go to App 1")),
-    column(6, a(href = "/app2", class = "btn btn-primary", "Go to App 2"))
+    style = "height: 200px;"
+  ),
+  fluidRow(
+    column(
+      width = 6,
+      a(
+        style = "height: 200px;text-align: center;background-color: #4169E1;",
+        href = "/app1/",
+        class = "btn btn-primary btn-block btn-lg",
+        "Go to 1st Shiny App"
+      )
+    ),
+    column(
+      6,
+      a(
+        style = "height: 200px;text-align: center;background-color: #FF8C00;",
+        href = "/app2/",
+        class = "btn btn-primary btn-block btn-lg",
+        "Go to 2nd Shiny App"
+      )
+    )
   )
 )
 
